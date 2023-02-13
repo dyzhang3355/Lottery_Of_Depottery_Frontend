@@ -39,7 +39,7 @@ const TokenTransfer = () => {
 			addSmartContractListener();
 		}
 		fetchData();
-	}, [walletAddress, tokenBalance]);
+	}, [walletAddress, toAddress]);
 
 	function addSmartContractListener() {
 		UBCTokenContract.events.Transfer({}, (error, data) => {
