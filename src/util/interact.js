@@ -1,7 +1,7 @@
 const alchemyKey = process.env.REACT_APP_ALCHEMY_KEY;
 const Web3 = require('web3');
 //const web3 = new Web3("wss://polygon-mumbai.g.alchemy.com/v2/"+alchemyKey);
-const web3 = new Web3("wss://polygon-mumbai.g.alchemy.com/v2/wUXVuoI41xWFQBCEvh4VuDkD2pZGGPcu");
+const web3 = new Web3("wss://polygon-mumbai.g.alchemy.com/v2/your_api_key");
 //const contractABI = require("../UBCToken-abi.json");
 const contractABI = require("../abi/MyToken.json")
 //const contractAddress = "0xc30835bbb6EAA1bc90F2e12bd227fBA2B9d95635";
