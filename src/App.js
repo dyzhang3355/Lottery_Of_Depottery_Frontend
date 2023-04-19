@@ -1,10 +1,11 @@
-import TokenTransfer from "./tokenTransfer";
+//import TokenTransfer from "./tokenTransfer";
+import LotteryDApp from "./Lottery";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			<TokenTransfer></TokenTransfer>
+			<LotteryDApp></LotteryDApp>
 		</div>
 	);
 }

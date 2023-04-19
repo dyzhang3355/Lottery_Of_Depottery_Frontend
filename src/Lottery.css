@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  font-family: sans-serif;
+}
+
+textBox {
+  display: flex;
+  font-family: sans-serif;
+  z-index: 1000;
+}
+adminPage {
+  display: flex;
+  font-family: sans-serif;
+  z-index: 1000;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  width: 200;
+}
+
+.menu {
+  width: 75%;
+  background-color: #f2f2f2;
+  padding: 1rem;
+}
+
+.menu h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #007bff;
+
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu li.active {
+  background-color: #ddd;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.form-container label {
+  margin-bottom: 0.5rem;
+}
+
+.form-container input {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container p {
+  margin: 0.5rem 0;
+  color: red;
+}
+
+.form-container button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0069d9;
+}
+
+.form-container .form-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container .form-buttons button {
+  margin-left: 0.5rem;
+}
+
+.page {
+  width: 100%;
+  padding: 1rem;
+}
+
+.temp_button {
+  margin-top: 10px; /* set the margin-top value as needed */
+  margin-bottom: 10px; /* set the margin-top value as needed */
+  background-color: #007bff;
+}
+
+my_button {
+  display: block;
+  width: 30%;
+  padding: 20px 20px;
+  margin: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
